@@ -2,6 +2,7 @@ services:
   - type: web
     name: atelier-api
     runtime: node
+    plan: free
     buildCommand: npm install
     startCommand: npm run start
     healthCheckPath: /api/health
