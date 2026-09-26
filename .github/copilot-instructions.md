@@ -1,0 +1,4 @@
+- React and styles are in `client/src`; Express API and Mongoose models are in `server/src`.
+- Use `.env` at the repository root for MongoDB, admin password, and JWT secret. Never commit secrets.
+- Run `npm run dev` at the repository root to start both development servers.
+- Keep customer-facing interface copy in French and preserve responsive layouts.
