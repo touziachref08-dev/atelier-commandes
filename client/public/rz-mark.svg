@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="42" y1="34" x2="197" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f2dfac"/>
+      <stop offset=".48" stop-color="#c9a85f"/>
+      <stop offset="1" stop-color="#8f6b2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="18" fill="#08090b"/>
+  <path d="M120 20 155 55v27h38v20L112 190l-28-24 67-64h-35l-18 23-16-13 18-24V55l20-35Z" fill="url(#gold)" opacity=".2"/>
+  <path d="M120 22 153 54v19h-19l-14-14-20 22h77v12l-83 93h82v-23" stroke="url(#gold)" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M66 76h39c22 0 34 12 34 31s-12 31-34 31H84v39H66V76Zm18 16v30h20c10 0 16-5 16-15s-6-15-16-15H84Z" fill="url(#gold)"/>
+  <path d="m88 137 43 51" stroke="url(#gold)" stroke-width="5"/>
+  <path d="M52 202h136" stroke="#c9a85f" stroke-opacity=".55"/>
+  <text x="120" y="218" fill="#e8e8e6" font-family="Arial,sans-serif" font-size="9" letter-spacing="4" text-anchor="middle">RZ COLLECTION</text>
+</svg>

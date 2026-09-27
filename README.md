@@ -41,7 +41,7 @@ L'API attend MongoDB avant d'écouter. Le client utilise le proxy Vite `/api` en
 
 ## Hébergement en ligne
 
-Le site public et l'administration sont servis par le frontend Vercel : les clients reçoivent uniquement `https://VOTRE-SITE.vercel.app/` ; l'administration est à `https://VOTRE-SITE.vercel.app/admin`. Le raccourci vers l'administration n'est pas affiché sur la boutique. L'accès admin reste protégé par `ADMIN_PASSWORD` côté API. Les clients commandent sans compte individuel.
+La boutique publique et l'administration sont deux interfaces séparées dans le code, servies par un seul frontend Vercel : les clients reçoivent uniquement `https://VOTRE-SITE.vercel.app/` ; l'administration est à `https://VOTRE-SITE.vercel.app/admin`. Chaque interface est chargée à la demande ; il n'y a pas de deuxième hébergement frontend à payer. Le raccourci vers l'administration n'est pas affiché sur la boutique. L'accès admin reste protégé par `ADMIN_PASSWORD` côté API. Les clients commandent sans compte individuel.
 
 Déploiement avec Vercel, Render et MongoDB Atlas :
 
